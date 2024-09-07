@@ -1,0 +1,9 @@
+services:
+  log_registro:
+    build: ./
+    container_name: logs_container
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./logs:/code/logs
+    command: [ "fastapi", "run", "registro.py","--port","8000" ]
