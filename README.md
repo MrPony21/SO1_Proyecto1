@@ -7,6 +7,8 @@ Para crear una imagen seria
 - docker build -t {nombre de la imagen} .
 Para ver las imagenes creadas
 - docker images
+Para crear mi contenedor en un puerto
+- docker run -p 3000:3000 mi-app-node
 Para crear nuestro contenedor
 - docker run -d <id_image|repository>
 Eliminar un contenedor

@@ -1,13 +1,12 @@
+import math
 import time
 
 def main():
     
     while True:
-        x = 0
-        for i in range(100000):
-            x += 1
-            print(x)
-        time.sleep(1)
+        
+        math.factorial(100000)
+        time.sleep(3)
         
 if __name__ == "__main__":
-    main()
+   main()
