@@ -1,0 +1,13 @@
+.Module.symvers.cmd
+.modules.order.cmd
+.sysinfo.ko.cmd
+.sysinfo.mod.cmd
+.sysinfo.mod.o.cmd
+.sysinfo.o.cmd
+Module.symvers
+modules.order
+sysinfo.ko
+sysinfo.mod
+sysinfo.mod.o
+sysinfo.o
+sysinfo.mod.c

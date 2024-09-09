@@ -22,7 +22,7 @@ MODULE_AUTHOR("Marco Solis 202003220");
 MODULE_DESCRIPTION("Modulo para extraer la informacion de los procesos de contenedores y cpu y ram");
 MODULE_VERSION("1.0");
 
-#define PROC_NAME "sysinfo"
+#define PROC_NAME "sysinfo_202003220"
 #define MAX_CMDLINE_LENGTH 256
 #define CONTAINER_ID_LENGTH 64
 
