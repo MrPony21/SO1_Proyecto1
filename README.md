@@ -15,6 +15,9 @@ Eliminar un contenedor
 - docker rm <container_id>
 Eliminar image
 - docker rmi <image_id>
+Eliminar todos mis contenedores
+- docker stop $(docker ps -q)
+- docker rm $(docker ps -a -q)
 **Docker compose nos ayuda a visualizar lo que esta pasando dentro de los directorios de mi contenedor**
 Comando para ejecutar el docker compose en segundo plano (Lo corremos como servicio)
 - sudo docker compose up -d
